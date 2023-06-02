@@ -60,7 +60,7 @@ main {
   height: 100%;
   text-transform: lowercase;
   background: white;
-  background: url(/assets/muneco.png);
+  background: url(../assets/muneco.png);
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
