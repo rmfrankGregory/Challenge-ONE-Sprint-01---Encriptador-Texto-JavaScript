@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="Logo" src="assets/Frame 6.png" alt="Logo Alura">
+    </header>
+
+    <main>
+        <section class="left-section">
+            <div>
+                <textarea class="Text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="Informacion">Solo letras minúsculas y sin acento.</h6>
+                </div>
+                <div class="Botones">
+                    <button class="Btn-encriptar" onclick="btnEncrypter()">Encriptar</button>
+                    <button class="Btn-desencriptar" onclick="btnDecrypter()">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div>
+                <textarea class="Mensaje" cols="30" rows="10"></textarea>
+                <div class="Botones">
+                    <button class="Btn-copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+<footer class="Pie-de-pagina">
+    <p class="declaracion-derechos">Challenge Sprint 01: Construye un encriptador de texto con Javascript // Alura ONE – Oracle Next Education // Fco. Rodriguez</p>
+</footer>
+
+</html>
